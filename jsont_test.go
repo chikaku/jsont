@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-const caseDir = "./testcase"
+const caseDir = "testcase/test_parsing"
 
 func iterTestcase(t *testing.T, prefix string, testFunc func(*assert.Assertions, []byte)) {
 	ast := assert.New(t)
